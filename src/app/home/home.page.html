@@ -1,20 +1,30 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
+<ion-header [translucent]
+="true">
+<ion-toolbar>
+
+   <div class="bg-color">
+  <p>App App</p>
+ </div>
+</ion-toolbar>
+
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+<ion-content [fullscreen]
+="true">
+  <ion-item>
+    <ion-grid [fixed]="true">
+      <ion-row>
+        <ion-col><img src="../../assets/1download.jpg" alt=""></ion-col>
+        <ion-col>Galaxy A53 5G<br>
+          9,239.00บาท
+        </ion-col>
+        <ion-col>
+          <ion-button>
+            
+            <ion-icon name="trash"></ion-icon>
+          </ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-item>
 </ion-content>
